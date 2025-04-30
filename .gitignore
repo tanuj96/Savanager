@@ -1,0 +1,23 @@
+# Ignore node_modules and build outputs
+client/node_modules/
+client/.next/
+client/.env.local
+
+# Ignore Visual Studio stuff
+server/bin/
+server/obj/
+server/*.db
+server/.vs/
+
+# Ignore logs
+*.log
+
+# Ignore .DS_Store on macOS
+.DS_Store
+
+# Ignore environment files
+*.env
+
+# Optional: OS generated files
+Thumbs.db
+ehthumbs.db

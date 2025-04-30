@@ -1,0 +1,6 @@
+@Savanager.Api_HostAddress = http://localhost:5180
+
+GET {{Savanager.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
