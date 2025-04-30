@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Savanager.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf363eb43f86bd7e3299d1c0433414304bd846cd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9f0cadb16efaeae52b5be10cb4b9a99a249d36f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Savanager.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Savanager.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
