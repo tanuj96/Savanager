@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "k3gPlSCqZsuDgaYz8ce8YElOWmIwQCZmP7JQ3NJMgew=",
+  "Source": "Savanager.Api",
+  "BasePath": "_content/Savanager.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}
