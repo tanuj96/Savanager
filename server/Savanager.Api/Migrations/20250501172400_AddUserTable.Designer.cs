@@ -3,6 +3,7 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Savanager.Api.Data;
 
@@ -11,9 +12,11 @@ using Savanager.Api.Data;
 namespace Savanager.Api.Migrations
 {
     [DbContext(typeof(SavanagerDbContext))]
-    partial class SavanagerDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250501172400_AddUserTable")]
+    partial class AddUserTable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

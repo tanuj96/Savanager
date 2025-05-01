@@ -2,9 +2,11 @@
 using Savanager.Api.Models;
 using Savanager.Api.Data;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Savanager.Api.Controllers
 {
+    [Authorize]
     [ApiController]
     [Route("api/[controller]")]
     public class InvestmentController : ControllerBase
@@ -91,6 +93,12 @@ namespace Savanager.Api.Controllers
             await _context.SaveChangesAsync();
 
             return NoContent();
+        }
+
+        [HttpGet("types")]
+        public async Task<ActionResult<IEnumerable<InvestmentType>>> GetInvestmentTypes()
+        {
+            return await _context.InvestmentTypes.ToListAsync();
         }
 
         private bool InvestmentExists(int id)

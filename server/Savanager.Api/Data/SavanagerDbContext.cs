@@ -11,5 +11,8 @@ namespace Savanager.Api.Data
         }
 
         public DbSet<Investment> Investments { get; set; }
+        public DbSet<InvestmentType> InvestmentTypes { get; set; }
+
+        public DbSet<User> Users { get; set; }
     }
 }
